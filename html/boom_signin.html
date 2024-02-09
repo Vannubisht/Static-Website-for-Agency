@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boom sign in</title>
+    <link rel="stylesheet" text="text/css" href="../css/bomerang.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+    <!--///////////////// nav bar start///////////////// -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Boomerang</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  mx-auto">
+                    <li class="nav-item ms-4">
+                        <a class="nav-link " href="../html/boom_home.html">HOME</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" href="../html/boom_about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" href="../html/boom_services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" href="../html/boom_blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" href="../html/boom_shop.html">SHOP</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" href="../html/boom_signin.html">SIGN IN</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" href="../html/boom_signout.html">SIGN OUT</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="extra-nav  border-0 border-start d-flex">
+                <ul class="d-flex ">
+                    <li class="list-unstyled pe-3 mt-2 "><a class="position-relative" href="#"><i
+                                class="fa fa-shopping-cart fs-5" aria-hidden="true"></i><span
+                                class=" position-absolute top-0 start-0 translate-middle badge rounded-pill bg-info">3</span></a>
+                    </li>
+                    <li class="list-unstyled"><button class="btn d-none d-md-block  border-none extra-nav-btn"
+                            type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                            aria-controls="offcanvasTop"><i class="fa fa-bars" aria-hidden="true"></i></button></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-extra-nav offcanvas-end bg-dark" id="offcanvasTop">
+        <div class="offcanvas-header">
+
+            <button type="button" class="btn-close text-reset text-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body mt-5">
+            <div class="textwidget">
+                <p class="text-center"><img src="../img/logo-light-2.png" alt="" width="80px"></p>
+                <p class="text-center text-white">See how users experience your website in realtime to see changes.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="widget_img">
+                        <ul class=" d-flex">
+
+                            <div class="col-3">
+                                <li class=" mb-3 me-5"><a href="#"><img class="ps-1" style="width:100px"
+                                            src="../img/1 (5).jpg"></a></li>
+                                <li class=" mb-3 me-5"><a href="#"><img class="ps-1" style="width:100px"
+                                            src="../img/2 (4).jpg"></a></li>
+                                <li class=" mb-3 me-5"><a href="#"><img class="ps-1" style="width:100px"
+                                            src="../img/3 (8).jpg"></a></li>
+                            </div>
+                            <div class="col-3">
+                                <li class=" mb-3 ms-4 "><a href="#"><img class="ps-1" style="width:100px"
+                                            src="../img/4 (5).jpg"></a></li>
+                                <li class=" mb-3 ms-4"><a href="#"><img class="ps-1" style="width:100px"
+                                            src="../img/5 (3).jpg"></a></li>
+                                <li class=" mb-3 ms-4"><a href="#"><img class="ps-1" style="width:100px"
+                                            src="../img/6 (2).jpg"></a></li>
+                            </div>
+                            <div class="col-3">
+                                <li class=" mb-3 ms-5"><a href="#"><img class="ps-1" style="width:100px"
+                                            src="../img/7.jpg"></a></li>
+                                <li class=" mb-3 ms-5"><a href="#"><img class="ps-1" style="width:100px"
+                                            src="../img/8.jpg"></a></li>
+                                <li class=" mb-3 ms-5"><a href="#"><img class="ps-1" style="width:100px"
+                                            src="../img/9.jpg"></a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--///////////////// nav bar end///////////////// -->
+
+
+
+    <!-- ////////////////parallax_signin start////////////// -->
+
+    <section class="module-cover parallax_signin  mt-5 pt-3">
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-4 col-md-6 m-auto">
+                    <div class="head">
+                        <h6 class="text-white mb-3 text-center">Sign into your account</h6>
+                    </div>
+                    <div class="form-part">
+                        <form>
+                            <div class="form-group mb-3">
+                                <input class="form-control" type="email" placeholder="Email">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input class="form-control " type="password" placeholder="Password">
+                            </div>
+                            <div class="form-group mb-5">
+                                <button class="btn btn-block btn-round btn-brand" type="submit">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-text sign2">
+                        <p class="text-white text-center">Dont have an account yet?<a href="#">Create account</a>
+                        <p class="text-white text-center">Forgot your
+                            username or
+                            password?<a href="#"> Recover account</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ////////////////parallax_signin end////////////// -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ///////////////footer start/////////////// -->
+    <footer class="footer">
+        <div class="footer-last">
+            <div class="container">
+                <div class="row d-flex justify-content-center pt-5">
+                    <div class="col-lg-3 text-white mb-5">
+                        <div class="last last-text">
+                            <div class="last-title">
+                                <h6 class="text-white mb-4">About Us</h6>
+                            </div>
+                            <div class="textlast text-white">
+                                <p class="text-secondary">Map where your photos were taken and discover local points of
+                                    interest. Map where
+                                    your photos.</p>
+                                <p class="text-secondary">
+                                    Location: 12 London Avenue, Suite 18<br>
+                                    E-mail: support@theme.com<br>
+                                    Phone: 8 800 123 4567<br>
+                                </p>
+                                <ul class="social-icons text-white  d-flex ">
+                                    <li class=" me-4 text-white"><a href="#"><i class="fa fa-twitter"
+                                                aria-hidden="true"></i></a></li>
+
+                                    <li class="me-4"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </li>
+
+                                    <li class="me-4"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    </li>
+
+                                    <li class="ms-2"><a href="#"><i class="fa fa-pinterest-p"
+                                                aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 text-white mb-5">
+
+                        <div class="last last-recent-entries">
+                            <div class="last-title text-center">
+                                <h6 class="mb-4">Recent Posts</h6>
+                            </div>
+                            <ul>
+                                <li><a href="#">Map where your photos were taken and discover local points.</a>
+                                    <br><span class="post-date text-secondary">May 8, 2018</span>
+                                </li>
+                                <hr class="text-secondary" style="width:100%;">
+
+                                <li><a href="#">Map where your photos were taken and discover local points.</a>
+                                    <br><span class="post-date text-secondary">April 7, 2018</span>
+                                </li>
+                                <hr class="text-secondary" style="width:100%;">
+
+
+                                <li><a href="#">Map where your photos were taken and discover local points.</a><br><span
+                                        class="post-date text-secondary">September 7, 2018</span></li>
+                                <hr class="text-secondary" style="width:100%;">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-white text-center mb-5">
+
+                        <div class="last twitter-last">
+                            <div class="last-title">
+                                <h6 class="mb-4">Twitter Feed</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-white text-center mb-5">
+                        <div class="last last-works">
+                            <div class="last-title">
+                                <h6 class="mb-4">Portfolio</h6>
+                            </div>
+                            <ul class="d-flex">
+                                <li><a href="#"><img class="me-2" style="width:75px" src="../img/1 (5).jpg" alt=""></a>
+                                </li>
+
+                                <li><a href="#"><img class="me-2" style="width:75px" src="../img/2 (4).jpg" alt=""></a>
+                                </li>
+
+                                <li><a href="#"><img style="width:75px" src="../img/3 (8).jpg" alt=""></a></li>
+                            </ul>
+                            <ul class="d-flex">
+                                <li><a href="#"><img class="me-2" style="width:75px" src="../img/7.jpg" alt=""></a></li>
+
+                                <li><a href="#"><img class="me-2" style="width:75px" src="../img/8.jpg" alt=""></a></li>
+
+                                <li><a href="#"><img style="width:75px" src="../img/6 (2).jpg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="text-secondary" style="width:100%;">
+        <div class="footer-bar">
+            <div class="container">
+                <div class="row text-center text-secondary">
+                    <div class="col-md-12">
+                        <div class="copyright">
+                            <p>© 2018 Boomerang, All Rights Reserved. Design with love by <a href="#">2theme</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ///////////////footer end/////////////// -->
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
